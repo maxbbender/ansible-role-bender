@@ -1,5 +1,5 @@
 ---
 - hosts: localhost
   remote_user: root
-  roles:
-    - bender
+  tasks:
+  - command: echo 'hey'
