@@ -1,0 +1,7 @@
+---
+- name: Add bender user
+  user:
+    name: bender
+    shell: /bin/bash
+    groups: sudo
+    append: yes
