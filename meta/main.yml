@@ -48,4 +48,5 @@ galaxy_info:
     #       Maximum 20 tags per role.
 
 dependencies: 
-- maxbbender.ansible_role_zsh
+- role: maxbbender.ansible_role_zsh
+  when: 'False'
