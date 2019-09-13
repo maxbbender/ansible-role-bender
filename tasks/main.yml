@@ -5,6 +5,7 @@
     shell: /bin/bash
     groups: sudo
     append: yes
+  become: true
 - name: Install ZSH
   include_role:
     name: maxbbender.ansible_role_zsh
